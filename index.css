@@ -1,0 +1,99 @@
+body
+{
+   height: 50vh;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   background-color:lightgreen;
+}
+.container
+{
+   display: flex;
+   height: 60px;
+   justify-content: space-between;
+   align-items: center;
+   background-color:chocolate;
+   position: sticky;
+   top: 0;
+}
+.container h1
+{
+   color:black;
+   padding-left: 25px;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+   cursor: none;
+}
+ul
+{
+   margin-right: 20px;
+}
+ul li{
+   height: inherit;
+   list-style-type: none;
+   display: inline-block;
+}
+ul li a
+{
+   text-decoration: none;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+}
+ul li a:hover
+{
+   color: black;
+   cursor: pointer;
+   height: inherit;
+   background-color: aqua;
+   border-radius: 10px;
+}
+.button
+{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+button
+{
+   padding: 10px 25px;
+   border-radius: 20px;
+   background-color: black;
+   color: #fff;
+}
+.bar
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.decontainer {
+   width: 50%;
+   background-color: #ddd;
+   padding: 10px;
+ }
+ 
+ progress {
+   height: 20px;
+   width: 100%;
+ }
+ 
+ progress::-webkit-progress-value {
+   background-color: #2196F3;
+ }
+ 
+ progress::-moz-progress-bar {
+   background-color: #2196F3;
+ }
+ 
+ label {
+   font-weight: bold;
+   margin-right: 10px;
+ }
+ h2
+ {
+    margin-left: 45%;
+ }
+
